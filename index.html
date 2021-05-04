@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form id="form">
+      <h2>顧客管理アプリ</h2>
+      <label for="name">名前</label><br>
+      <input type="text" id="name" class="input">
+      <br>
+      <label for="birthday">生年月日</label><br>
+      <input type="date" id="birthday" class="input">
+      <br>
+      <label for="email">メールアドレス</label><br>
+      <input type="email" id="email" class="input">
+      <br>
+      <input type="submit" value="登録">
+    </form>
+  
+    <table border="1">
+      <caption>顧客データ</caption>
+      <thead>
+        <tr>
+          <th scope="col">名前</th>
+          <th scope="col">生年月日</th>
+          <th scope="col">メールアドレス</th>
+        </tr>
+      </thead>
+      <tbody id="data">
+        
+      </tbody>
+    </table>
+  </div>
+ <script src="main.js"></script>
+</body>
+</html>

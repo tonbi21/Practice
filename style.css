@@ -1,0 +1,20 @@
+#form{
+  text-align: center;
+}
+
+.input{
+  margin-bottom: 20px;
+}
+
+table{
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+thead{
+  background-color: #ddd;
+}
+
+th, td{
+  padding: 10px;
+}
